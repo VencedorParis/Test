@@ -330,3 +330,35 @@
     <div>Hello World</div>
     <span>Hello World</span>
 </html>
+
+<html>
+    <head>
+        <style>
+            .city {
+                background-color: tomato;
+                color: white;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h2 class="city">London</h2>
+        <p>London ist die Hauptstadt von England</p>
+
+        <h2 class="city">Paris</h2>
+        <p>Paris ist die Hauptstadt von Frankreich</p>
+
+        <h2 class="city">Tokio</h2>
+        <p>Tokio ist die Hauptstadt von Japan</p>
+    </body>
+</html>
+
+<script>
+    function myFunction() {
+        var x = document.getElementsByClassName("city");
+        for (var i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+    }
+</script>
