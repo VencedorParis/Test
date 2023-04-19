@@ -1,8 +1,5 @@
 body{
-    background-image: url("paper.png");
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: scroll;
+    background: #ffffff url("img_tree.png") no-repeat right top;
 }
 
 h1{
