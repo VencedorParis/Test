@@ -30,3 +30,9 @@ p{
     margin-right: 150px;
     margin-left: 80px;
 }
+
+div{
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+}
