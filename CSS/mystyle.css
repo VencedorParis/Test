@@ -6,3 +6,25 @@ h1{
     color: navy;
     margin-left: 20px;
 }
+
+p.mix{border-style: dotted dashed solid double;}
+
+p.four{
+    border-style: dotted;
+    border-width: 2px;
+}
+
+p.three{
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+}
+
+p.one{
+    border-style: solid;
+    border-color: red green blue;
+}
+
+p{
+    border: 6px solid red;
+    border-radius: 5px;
+}
