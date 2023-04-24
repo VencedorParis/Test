@@ -1,10 +1,17 @@
 body{
-    background-color: lightblue;
+    background-color: lightgrey;
+    color: blue;
 }
 
 h1{
-    color: navy;
-    margin-left: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration-line: overline ;
+    text-decoration-color: red;
+    text-decoration-style: solid;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px red;
 }
 
 p.mix{border-style: dotted dashed solid double;}
@@ -25,29 +32,16 @@ p.one{
 }
 
 p{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-transform: uppercase;
+    text-indent: 50px;
 }
 
 div{
-    width: 300px;
-    padding: 25px;
-    box-sizing: border-box;
-}
-
-div{
-    height: 200px;
-    max-width: 500px;
-    background-color: powderblue;
-}
-
-div{
-    width: 320px;
-    border: 5px solid gray;
-    padding: 10px;
-    margin: 0;
+    background-color: blue;
+    color: white;
+    text-align: justify;
 }
 
 p.outset{outline-style: outset;}
@@ -59,4 +53,15 @@ p.ex4{
     outline-width: 4px;
 }
 
-p.outset{outline-style: outset;}
+p.ex1 {
+    outline-style: solid;
+    outline-color: #ff0000;
+}
+
+p{
+    margin: 30px;
+    background: yellow;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+}
