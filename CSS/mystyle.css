@@ -49,3 +49,14 @@ div{
     padding: 10px;
     margin: 0;
 }
+
+p.outset{outline-style: outset;}
+
+p.ex4{
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 4px;
+}
+
+p.outset{outline-style: outset;}
