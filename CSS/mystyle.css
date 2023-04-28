@@ -78,3 +78,27 @@ p.a {
 p.b {
     font: italic small-caps bold 12px/30px Georgia, serif;
 }
+
+a{
+    color:hotpink
+}
+/* unvisited link */
+a:link{
+    color: red;
+    text-decoration: none;
+}
+/* visited link */
+a:visited {
+    color:green;
+    text-decoration: none;
+}
+/* mouse over link */
+a:hover{
+    color:hotpink;
+    text-decoration: underline;
+}
+/* selected link */
+a:active{
+    color:blue;
+    text-decoration: underline;
+}
