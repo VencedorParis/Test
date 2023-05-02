@@ -370,3 +370,7 @@ img{
 div ~ p {
     background-color: yellow;
 }
+
+a:link{
+    color: #FF0000;
+}
