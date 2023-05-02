@@ -102,3 +102,27 @@ a:active{
     color:blue;
     text-decoration: underline;
 }
+ 
+ul.a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ 
+ul.b{
+    list-style-type: square;
+}
+
+ol.c{
+    list-style-type: upper-roman;
+}
+
+ol.d{
+    list-style-type: lower-alpha;
+}
+
+ul li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+}
