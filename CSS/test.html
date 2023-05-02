@@ -1,58 +1,51 @@
-
+<!DOCTYPE html>
 <html>
-    <head>
-        <style>
-            div.gallery {
-            margin: 5px;
-            border: 1px solid #ccc;
-            float: left;
-            width: 180px;
-            }
+    <style>
+        input[type=text], select {
+           background-color: #3CBC8D;
+           color: white;
+        }
 
-            div.gallery:hover {
-            border: 1px solid #777;
-            }
-
-            div.gallery img {
+        input[type=submit] {
             width: 100%;
-            height: auto;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
             }
 
-            div.desc {
-            padding: 15px;
-            text-align: center;
+        input[type=submit]:hover {
+            background-color: #45a049;
             }
-        </style>
-    </head>
+
+        div {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+            }
+    </style>
+    
     <body>
+        <h3>Using CSS to style on HTML Form</h3>
 
-        <div class="gallery">
-        <a target="_blank" href="img_5terre.jpg">
-            <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
-        </a>
-        <div class="desc">Add a description of the image here</div>
+        <div>
+            <form action="/action_page.php">
+                <label for="fname">Vorname</label>
+                <input type="text" id="fname" name="vorname" placeholder="Dein Vorname...">
+                <label for="fname">Nachname</label>
+                <input type="text" id="lname" name="nachname" placeholder="Dein Nachname...">
+                <label for="country">Land</label>
+                <select id="country" name="country">
+                    <option value="australien">Australien</option>
+                    <option value="canada">Kanada</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <input type="submit" value="Bestätigen">
+            </form>
         </div>
-
-        <div class="gallery">
-        <a target="_blank" href="img_forest.jpg">
-            <img src="img_forest.jpg" alt="Forest" width="600" height="400">
-        </a>
-        <div class="desc">Add a description of the image here</div>
-        </div>
-
-        <div class="gallery">
-        <a target="_blank" href="img_lights.jpg">
-            <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
-        </a>
-        <div class="desc">Add a description of the image here</div>
-        </div>
-
-        <div class="gallery">
-        <a target="_blank" href="img_mountains.jpg">
-            <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
-        </a>
-        <div class="desc">Add a description of the image here</div>
-        </div>
-
     </body>
 </html>
