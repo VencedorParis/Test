@@ -1,51 +1,24 @@
 <!DOCTYPE html>
 <html>
-    <style>
-        input[type=text], select {
-           background-color: #3CBC8D;
-           color: white;
-        }
-
-        input[type=submit] {
-            width: 100%;
-            background-color: #4CAF50;
-            color: white;
-            padding: 14px 20px;
-            margin: 8px 0;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
+    <head>
+        <style>
+            body {
+                counter-reset: section;
             }
 
-        input[type=submit]:hover {
-            background-color: #45a049;
+            h2::before {
+                counter-increment: section;
+                content: "Section" counter(section) ": ";
             }
-
-        div {
-            border-radius: 5px;
-            background-color: #f2f2f2;
-            padding: 20px;
-            }
-    </style>
-    
+        </style>
+    </head>
     <body>
-        <h3>Using CSS to style on HTML Form</h3>
+        <h1>Using CSS Counters</h1>
 
-        <div>
-            <form action="/action_page.php">
-                <label for="fname">Vorname</label>
-                <input type="text" id="fname" name="vorname" placeholder="Dein Vorname...">
-                <label for="fname">Nachname</label>
-                <input type="text" id="lname" name="nachname" placeholder="Dein Nachname...">
-                <label for="country">Land</label>
-                <select id="country" name="country">
-                    <option value="australien">Australien</option>
-                    <option value="canada">Kanada</option>
-                    <option value="usa">USA</option>
-                </select>
-
-                <input type="submit" value="Bestätigen">
-            </form>
-        </div>
+        <h2>HTML Tutorial</h2>
+        <h2>CSS Tutorial</h2>
+        <h2>JavaScript Tutorial</h2>
+        <h2>Python Tutorial</h2>
+        <h2>SQL Tutorial</h2>
     </body>
 </html>
