@@ -42,13 +42,13 @@ p{
     text-indent: 50px;
 }
 
-div{
+/* div{
     width: 200px;
     height: 65px;
     background-color: coral;
     overflow-x: hidden;
     overflow-y: scroll;
-}
+} */
 
 p.outset{outline-style: outset;}
 
@@ -224,9 +224,34 @@ div.sticky{
     border: 2px solid #4CAF50;
 }
 
-img{
+/* img{
     position: absolute;
     left: 0px;
     top: 0px;
     z-index: -1;
+} */
+
+img{
+    /* float: right; */
+    /* float: left; */
+    float: none;
+}
+
+div{
+    float: left;
+    padding: 15px;
+}
+
+.div1 {
+    /* background: red; */
+    float: left;
+}
+
+.div2 {
+    /* background: yellow; */
+    clear: left;
+}
+
+.div3 {
+    background: green;
 }
