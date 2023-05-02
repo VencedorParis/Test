@@ -126,3 +126,32 @@ ul li {
     color: darkblue;
     margin: 5px;
 }
+
+table{
+    width: 50%;
+    border: 1px;
+}
+
+th, td {
+    /* padding: 15px;
+    text-align: left; */
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: coral;}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+th {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* th {
+    text-align: left;
+}
+
+td {
+    height: 50px;
+    vertical-align: bottom;
+} */
