@@ -2,16 +2,24 @@
 <html>
     <head>
         <style>
-            .intro {
-                background-color: yellow;     
-            }
-            h1 {
-                background-color: red;
-            }
+           .button {
+            background-color: #8c8c8c !important;
+            color: white !important;
+            padding: 5px !important;
+            border: 1px solid black !important;
+           }
+
+           #myDiv a {
+            color: red;
+            background-color: yellow;
+           }
         </style>
     </head>
     <body>
-
-        <h1 class="intro">Das ist die erste</h1>
+        <p>Standard Button: <a class="button" href="default.asp">CSS Tutorial</a></p>
+        <div id="myDiv">
+            <p>Ein verlinkter Text in myDiv: <a href="/html/">HTML Tutorial</a></p>
+            <p>Ein link Button in myDiv: <a href="/html/" class="button">HTML Tutorial</a></p>
+        </div>
     </body>
 </html>
