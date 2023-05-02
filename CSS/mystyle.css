@@ -221,3 +221,10 @@ div.sticky{
     background-color: green;
     border: 2px solid #4CAF50;
 }
+
+img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
