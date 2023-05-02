@@ -43,9 +43,11 @@ p{
 }
 
 div{
-    background-color: blue;
-    color: white;
-    text-align: justify;
+    width: 200px;
+    height: 65px;
+    background-color: coral;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 p.outset{outline-style: outset;}
