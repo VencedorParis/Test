@@ -374,3 +374,36 @@ div ~ p {
 a:link{
     color: #FF0000;
 }
+
+selector::pseudo-element {
+    property: value;
+}
+
+p::first-line{
+    color: #ff0000;
+    font-variant: small-caps;
+}
+
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+
+p.intro::first-letter {
+    color:#ff0000;
+    font-size: 200%;
+}
+
+h1::before {
+    content: url(smiley.gif);
+}
+
+::marker{
+    color: red;
+    font-size: 23px;
+}
+
+::selection {
+    color: red;
+    background: yellow;
+}
