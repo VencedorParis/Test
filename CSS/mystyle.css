@@ -14,6 +14,10 @@ h1{
     text-shadow: 2px 2px red;
 }
 
+h1.hidden{
+    visibility: hidden;
+}
+
 p.mix{border-style: dotted dashed solid double;}
 
 p.four{
@@ -145,6 +149,18 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 th {
     background-color: #04AA6D;
     color: white;
+}
+
+li {
+    display: inline;
+}
+
+span {
+    display: block;
+}
+
+a {
+    display: block;
 }
 
 /* th {
